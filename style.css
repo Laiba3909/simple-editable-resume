@@ -1,0 +1,454 @@
+body {
+    background-image: url(https://www.shutterstock.com/image-photo/dark-graphite-grey-abstract-textured-600nw-2186292063.jpg);
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.main {
+    border: 8px solid whitesmoke;
+    margin: 50px auto;
+    width: 700px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 5px 9px;
+    color: whitesmoke;
+    padding: 20px;
+    overflow: hidden;
+   
+}
+
+.resume {
+    text-align: center;
+    font-size: 60px;
+    color: gold;
+    text-shadow: 2px 3px 4px;
+    width: 1400px;
+    /* margin-top: 20px; */
+}
+
+.typewriter {
+    overflow: hidden; 
+    border-right: .15em solid rgb(21, 0, 255);
+    white-space: nowrap; 
+    margin: 10px; 
+    letter-spacing: .1em; 
+    animation: 
+      typing 5.5s steps(80, end),
+      blink-caret .75s step-end infinite;
+  }
+ 
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+ 
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+.name2{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-shadow: 1px 1px 1px;
+    margin-left: 33px;
+    word-wrap: break-word;
+    background-color: black;
+    border: 4px solid whitesmoke;
+    border-radius: 3px;
+}
+.name3{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-shadow: 1px 1px 1px;
+    margin-left: 14px;
+    word-wrap: break-word;
+    background-color: black;
+    border: 4px solid whitesmoke;
+    border-radius: 3px;
+}
+.name4{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-shadow: 1px 1px 1px;
+    margin-left: 6px;
+    word-wrap: break-word;
+    width: 270px;
+    background-color: black;
+    border: 4px solid whitesmoke;
+    border-radius: 3px;
+}
+.name5{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-shadow: 1px 1px 1px;
+    margin-left: 6px;
+    word-wrap: break-word;
+    width: 270px;
+    background-color: black;
+    border: 4px solid whitesmoke;
+    border-radius: 3px;
+}
+.name6{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-shadow: 1px 1px 1px;
+    margin-left: 6px;
+    word-wrap: break-word;
+    width: 270px;
+    background-color: black;
+    border: 4px solid whitesmoke;
+    border-radius: 3px;
+}
+
+.name {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-shadow: 1px 1px 1px;
+    margin-left: 50px;
+    word-wrap: break-word;
+    background-color: black;
+    border: 4px solid whitesmoke;
+    border-radius: 3px;
+}
+
+.intro {
+    color: gold;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.label1 {
+    color: gold;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px;
+    margin-right: 5px;
+  
+}
+#experience{
+    border: 3px solid whitesmoke;
+}
+.skill{
+    margin-bottom: 12px;
+   margin-top:-100px;
+}
+.main-child {
+    margin: 10px;
+}
+
+.under-main-child {
+    margin-bottom: 10px;
+}
+
+
+.boox2{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    width: 200px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 270px;
+    font-weight: 700;
+}
+.box1 button{
+    background-color: rgb(255, 255, 254);
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    font-weight: 600;
+    width: 200px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 270px;
+}
+
+
+
+.skill {
+    text-align: center;
+}
+
+textarea {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 200px;
+    color: azure;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+    border: 5px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    border: 4px solid whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 20px 0;
+}
+
+.label {
+    color: gold;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.skill-alignment {
+    margin-top: 50px;
+}
+
+
+
+.footer h1{
+    color: gold;
+    width: 400px;
+    font-size: 35px;
+    margin-top: -20px;
+    margin-left: 520px;
+}
+
+@media (min-width:860px) and (max-width:1000px){
+    .footer h1{
+        margin-left: 250px;
+    }
+}
+
+@media (min-width:1000px) and (max-width:1100px){
+    .footer h1{
+        margin-left: 290px;
+    }
+}
+
+
+@media (min-width:1100px) and (max-width:1400px){
+    .footer h1{
+        margin-left: 380px;
+    }
+}
+
+@media  (min-width:200px) and (max-width:400px) {
+    .resume{
+        width: 300px;
+        font-size: 20px;
+        overflow: hidden;
+    }
+
+    .intro{
+        font-size: 25px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .main{
+        width: 280px;
+        overflow-y: hidden;
+        overflow: hidden;
+        overflow-x: hidden;
+
+    }
+
+    textarea{
+        width: 300px;
+        margin-left: -20px;
+    }
+    .skill{
+        margin: 1px;
+        width: 200px;
+    }
+    .boox2{
+     margin-left: 100px;
+    }
+    .box1{
+        margin-left: -170px;
+    }
+    .footer{
+        margin-left: -500px;
+        
+    }
+    .footer h1{
+        font-size: 25px;
+    }
+
+    .label1{
+        font-size: 22px;
+    }
+
+    .name2{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        text-shadow: 1px 1px 1px;
+        margin-left: 33px;
+        word-wrap: break-word;
+        background-color: black;
+        border: 4px solid whitesmoke;
+        border-radius: 3px;
+    }
+    .name3{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        text-shadow: 1px 1px 1px;
+        margin-left: 14px;
+        word-wrap: break-word;
+        background-color: black;
+        border: 4px solid whitesmoke;
+        border-radius: 3px;
+    }
+    .name4{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        text-shadow: 1px 1px 1px;
+        margin-left: 6px;
+        word-wrap: break-word;
+        width: 220px;
+        background-color: black;
+        border: 4px solid whitesmoke;
+        border-radius: 3px;
+    }
+    .name5{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        text-shadow: 1px 1px 1px;
+        margin-left: 6px;
+        word-wrap: break-word;
+        width: 220px;
+        background-color: black;
+        border: 4px solid whitesmoke;
+        border-radius: 3px;
+    }
+    .name6{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        text-shadow: 1px 1px 1px;
+        margin-left: 6px;
+        word-wrap: break-word;
+        width: 200px;
+        background-color: black;
+        border: 4px solid whitesmoke;
+        border-radius: 3px;
+    }
+    
+    .name {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        text-shadow: 1px 1px 1px;
+        margin-left: 30px;
+        word-wrap: break-word;
+        background-color: black;
+        border: 4px solid whitesmoke;
+        border-radius: 3px;
+    }
+    .skill-alignment{
+        margin-top: -10px;
+    }
+    .boox2{
+        margin-left: 20px;
+    }
+    .box1{
+        margin-left: -240px;
+    }
+}
+
+@media  (min-width:400px) and (max-width:600px) {
+    .resume{
+        width: 500px;
+        overflow-x: hidden;
+    }
+   .main{
+    width: 500px;
+    
+   }
+
+    textarea{
+        width: 500px;
+    }
+    .footer{
+        margin-left: -400px;
+    }
+}
+
+@media  (min-width:600px) and (max-width:800px) {
+    .resume{
+        width: 600px;
+        overflow-x: hidden;
+        
+    }
+    .main{
+        width: 550px;
+        
+    }
+
+    textarea{
+        width: 500px;
+    }
+    .footer{
+        margin-left: -450px;
+    }
+ }
+
+ @media  (min-width:400px) and (max-width:760px) {
+    .resume{
+        width: 500px;
+        overflow-x: hidden;
+    }
+    .main{
+        width: 460px;
+        margin-left: 80px;
+    }
+
+    textarea{
+        width: 300px;
+        margin-left: 90px;
+    }
+    .skill{
+        margin: 1px;
+        width: 250px;
+    }
+    .boox2{
+     margin-left: 100px;
+    }
+    .box1{
+        margin-left: -170px;
+    }
+    .footer{
+        margin-left: -450px;
+    }
+}
+
+
+
+@media  (min-width:760px) and (max-width:900px) {
+    .resume{
+        width: 600px;
+        overflow-x: hidden;
+    }
+    .main{
+        width: 500px;
+      margin-left: 90px;
+      overflow-x: hidden;
+    }
+
+    textarea{
+        width: 300px;
+        margin-left: 90px;
+    }
+    .skill{
+        margin: 1px;
+        width: 250px;
+    }
+    .boox2{
+     margin-left: 100px;
+    }
+    .box1{
+        margin-left: -170px;
+    }
+    .footer{
+        margin-left: -400px;
+    }
+}
